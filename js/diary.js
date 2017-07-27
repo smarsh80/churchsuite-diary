@@ -231,7 +231,7 @@ $(document).ready(function($) {
         var date_format = 'dddd, Do MMMM YYYY h:mm a';
 
         $.ajax({
-            url: 'https://woodlands.churchapp.co.uk/embed/calendar/json',
+            url: 'https://woodlands.churchsuite.co.uk/embed/calendar/json?site=2',
             type: 'GET',
             dataType: 'jsonp',
             data: {
@@ -340,10 +340,10 @@ $(document).ready(function($) {
         data.forEach( function( skv_event ){
 
             // don't want to display Highgrove events
-            if( skv_event.location 
-                && skv_event.location.name === 'Highgrove Church' ){
-                return false;
-            }
+         //   if( skv_event.location 
+         //       && skv_event.location.name === 'Highgrove Church' ){
+         //       return false;
+         //   }
 
             var start_date = moment( skv_event.datetime_start );
             var end_date = moment( skv_event.datetime_end );
