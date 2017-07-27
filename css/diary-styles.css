@@ -48,14 +48,14 @@
 }
 
 .diary-container .calendar-summary .event-summary .event-name {
-    color: #60a8d0;
+    color: #0ba820;
     font-weight: bold;
 }
 
 .diary-container .calendar-summary .event-summary .event-time {
     display: block;
     float: none;
-    color: #60a8d0;
+    color: #0ba820;
     font-weight: bold;
 }
 
@@ -139,7 +139,7 @@
     float: left;
     border-radius: 3px;
     color: white;
-    background-color: #60a8d0;
+    background-color: #0ba820;
     font-size: 17px;
     text-align: center;
 }
@@ -147,7 +147,7 @@
 .diary-container .calendar-control .previous-period:hover,
 .diary-container .calendar-control .this-week:hover,
 .diary-container .calendar-control .next-period:hover {
-    background-color: #5697bb;
+    background-color: #088619;
     cursor: pointer;
 }
 
